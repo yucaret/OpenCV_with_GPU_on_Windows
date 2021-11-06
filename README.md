@@ -10,9 +10,9 @@
 ![image](https://user-images.githubusercontent.com/31372472/140610516-358ccfea-1b20-4239-b456-156e88fd12e0.png)
 
 - Damos click derecho en INSTALL y compilar (demora unos segundos)
-![image](https://user-images.githubusercontent.com/31372472/140617367-7825b3f7-ae7c-48a3-90c2-7d410033f8f0.png)
+![image](https://user-images.githubusercontent.com/31372472/140618123-b003bc68-ec60-46c7-85b9-fca17560903f.png)
 
-![image](https://user-images.githubusercontent.com/31372472/140617393-aa205f05-9cdc-487b-8af9-c81a555cb336.png)
+![image](https://user-images.githubusercontent.com/31372472/140618146-38e5d562-8881-47cb-9ed1-5a2f3ee3c27b.png)
 
 - Cuando finaliza la compilación sale este resultado:
 ![image](https://user-images.githubusercontent.com/31372472/140617434-ef54ba26-4235-4faf-8bba-c4dfac7d4373.png)
