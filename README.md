@@ -19,6 +19,8 @@
 - Cuando finaliza la compilación sale este resultado:
   ![image](https://user-images.githubusercontent.com/31372472/140627985-d78efd7a-1731-4e77-978d-186535a892e2.png)
   
-- Para verifica la instalación ingresamos a Python e importamos opencv y vemos su versión
+- Para verifica la instalación ingresamos a Python e importamos opencv y vemos la informaci+on de Cuda Instalado
 
-  ![image](https://user-images.githubusercontent.com/31372472/140627967-bb5e6a95-d3c6-4b93-a86f-7c966328f8ae.png)
+  ![image](https://user-images.githubusercontent.com/31372472/140645225-ab7ed305-a844-404a-840a-a9d77599aeb8.png)
+  
+  ![image](https://user-images.githubusercontent.com/31372472/140645261-5d8d7493-fcc7-4e69-961f-e3bf016114f7.png)
