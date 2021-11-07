@@ -15,6 +15,8 @@
   ![image](https://user-images.githubusercontent.com/31372472/140618146-38e5d562-8881-47cb-9ed1-5a2f3ee3c27b.png)
 
 - Cuando finaliza la compilación sale este resultado:
-  ![image](https://user-images.githubusercontent.com/31372472/140617434-ef54ba26-4235-4faf-8bba-c4dfac7d4373.png)
+  ![image](https://user-images.githubusercontent.com/31372472/140627985-d78efd7a-1731-4e77-978d-186535a892e2.png)
+  
+- Para verifica la instalación ingresamos a Python e importamos opencv y vemos su versión
 
-
+  ![image](https://user-images.githubusercontent.com/31372472/140627967-bb5e6a95-d3c6-4b93-a86f-7c966328f8ae.png)
