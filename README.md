@@ -1,6 +1,8 @@
 # OpenCV_with_GPU_on_Windows
 
-
+- Verificamos la versión de procesador, en mi caso tengo un GeForce 940 MX, como en la página existe 940 M, utilizare su capacidad de 5.0 para mis configuraciones:
+  ![image](https://user-images.githubusercontent.com/31372472/140633626-37af1847-ab9e-42f1-8e47-d63b965f8302.png)
+ 
 - Damos click derecho en ALL_BULD y compilar (el proceso tarda aproximadamente 6 horas):
   ![image](https://user-images.githubusercontent.com/31372472/140610569-54ca4014-89c5-4489-a451-325b817f95f2.png)
 
