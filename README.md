@@ -11,6 +11,9 @@
 - Abrir el CMake y configurar las siguientes rutas:
   ![image](https://user-images.githubusercontent.com/31372472/140827697-0b1963e9-939d-4474-b79e-4a46dee8b8c3.png)
   
+- Luego dar click en "Configure" y donde saldrá otra ventana pop up y donde se debe de configurar de la siguiente manera:
+  ![image](https://user-images.githubusercontent.com/31372472/140828035-d7ae816b-c303-4318-b786-176d8d0ad0d3.png)
+  
 - Descomprimir los dos .zip y crear una carpeta llamada "build", debe tener el siguiente formato:
   ![image](https://user-images.githubusercontent.com/31372472/140826316-1e91f286-9fdc-4a20-a1a6-0b0470ca07a5.png)
 
