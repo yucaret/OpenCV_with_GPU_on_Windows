@@ -40,8 +40,17 @@
 
 - Damos click en "Configure" y esperamos a las siguientes configuraciones:
   ![image](https://user-images.githubusercontent.com/31372472/140836326-e49bf59c-fb2e-4a3a-a5bc-f4b44501dc1d.png)
+  
+- El proceso va a generar un error, el cual le damos ok y empezamos a configurar nuevamente:
+  ![image](https://user-images.githubusercontent.com/31372472/140836596-8339ecfb-1d40-4303-9bbf-fa1d01a163ef.png)
 
-- Verificamos la versión de procesador, en mi caso tengo un GeForce 940 MX, como en la página existe 940 M, utilizare su capacidad de 5.0 para mis configuraciones:
+
+
+
+
+
+
+- Verificamos la versión de procesador, en mi caso tengo un GeForce 940 MX, como en la página existe 940 M, utilizare su capacidad de 5.0 para las configuraciones:
   ![image](https://user-images.githubusercontent.com/31372472/140633626-37af1847-ab9e-42f1-8e47-d63b965f8302.png)
  
 - Damos click derecho en ALL_BULD y compilar (el proceso tarda aproximadamente 6 horas):
