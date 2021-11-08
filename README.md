@@ -33,11 +33,13 @@
   ![image](https://user-images.githubusercontent.com/31372472/140834467-1aacfcc8-6381-4c51-a2d3-72cb21a139c9.png)
 
 - Configuramos la variable "ENABLE_FAST_MATH" y le damos check:
-![image](https://user-images.githubusercontent.com/31372472/140834764-2e4c8dbd-c6e4-4646-a3ff-ada9ce33a034.png)
+  ![image](https://user-images.githubusercontent.com/31372472/140834953-bf84979c-ed9b-4552-b730-2b43e7a14f9e.png)
 
+- Configuramos las variables INSTALL_PYTHON_EXAMPLES, INSTALL_C_EXAMPLES y BUILD_EXAMPLES , a todas le quitamos el check.
+  ![image](https://user-images.githubusercontent.com/31372472/140835620-5c1d1f02-fb07-4c5f-9e9f-bf765fabbace.png)
 
-
-
+- Damos click en "Configure" y esperamos a las siguientes configuraciones:
+  ![image](https://user-images.githubusercontent.com/31372472/140836326-e49bf59c-fb2e-4a3a-a5bc-f4b44501dc1d.png)
 
 - Verificamos la versión de procesador, en mi caso tengo un GeForce 940 MX, como en la página existe 940 M, utilizare su capacidad de 5.0 para mis configuraciones:
   ![image](https://user-images.githubusercontent.com/31372472/140633626-37af1847-ab9e-42f1-8e47-d63b965f8302.png)
