@@ -19,6 +19,21 @@
   
 - Cuando culmine de configurar nos saldrá este resultado, a partir de aquí debemos de continuar la configuración, sobre todo el python donde debe de instalar, en su defecto aparecio el python que no es de anaconda:
   ![image](https://user-images.githubusercontent.com/31372472/140830463-f4d44ba7-cabf-41b1-aba5-8e916dd2b3f7.png)
+  
+- Configuramos el python donde quiero instalar el opencv, en mi caso lo quiero instalar en el ambiente de anaconda que he creado llamado "pythonGPU":
+  ![image](https://user-images.githubusercontent.com/31372472/140833069-696c0814-8590-4f93-ae0e-66f4ca0c66d3.png)
+
+- Configuramos la variable "BUILD_opencv_world" y le damos check:
+  ![image](https://user-images.githubusercontent.com/31372472/140833162-9b6b40f3-c0f4-4e3f-9522-89d1810f2d2d.png)
+
+- Configuramos la variable "WITH_CUDA" y "OPENCV_DNN_CUDA", a ambas le damos check:
+  ![image](https://user-images.githubusercontent.com/31372472/140833972-20f9228a-1564-4223-b411-e164a329ce37.png)
+
+- Configuramos la variable "OPENCV_ENABLE_NONFREE" y le damos check:
+  ![image](https://user-images.githubusercontent.com/31372472/140834467-1aacfcc8-6381-4c51-a2d3-72cb21a139c9.png)
+
+
+
 
 - Verificamos la versión de procesador, en mi caso tengo un GeForce 940 MX, como en la página existe 940 M, utilizare su capacidad de 5.0 para mis configuraciones:
   ![image](https://user-images.githubusercontent.com/31372472/140633626-37af1847-ab9e-42f1-8e47-d63b965f8302.png)
