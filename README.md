@@ -32,6 +32,10 @@
 - Configuramos la variable "OPENCV_ENABLE_NONFREE" y le damos check:
   ![image](https://user-images.githubusercontent.com/31372472/140834467-1aacfcc8-6381-4c51-a2d3-72cb21a139c9.png)
 
+- Configuramos la variable "ENABLE_FAST_MATH" y le damos check:
+![image](https://user-images.githubusercontent.com/31372472/140834764-2e4c8dbd-c6e4-4646-a3ff-ada9ce33a034.png)
+
+
 
 
 
