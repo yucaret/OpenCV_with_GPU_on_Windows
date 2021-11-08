@@ -7,6 +7,9 @@
 
 - Decargar el opencv-contribution para la versión que opencv que haz descargado, en mi caso la he bajado del github https://github.com/opencv/opencv_contrib la versión 4.x:
   ![image](https://user-images.githubusercontent.com/31372472/140825775-848b900f-6758-48ca-a642-dcd7d4366985.png)
+  
+- Descomprimir los dos .zip y crear una carpeta llamada "build", debe tener el siguiente formato:
+  ![image](https://user-images.githubusercontent.com/31372472/140826316-1e91f286-9fdc-4a20-a1a6-0b0470ca07a5.png)
 
 - Verificamos la versión de procesador, en mi caso tengo un GeForce 940 MX, como en la página existe 940 M, utilizare su capacidad de 5.0 para mis configuraciones:
   ![image](https://user-images.githubusercontent.com/31372472/140633626-37af1847-ab9e-42f1-8e47-d63b965f8302.png)
