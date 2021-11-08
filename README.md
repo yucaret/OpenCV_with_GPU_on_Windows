@@ -17,7 +17,7 @@
 - Luego dar click en "Configure", donde saldrá otra ventana pop up y donde se debe de configurar de la siguiente manera y finalmente darle finish:
   ![image](https://user-images.githubusercontent.com/31372472/140828744-5fb4cc0a-80b5-4459-919f-8a3805a2833b.png)
   
-- Cuando culmine de configurar nos saldrá este resultado, a partir de aquí debemos de continuar la configuración:
+- Cuando culmine de configurar nos saldrá este resultado, a partir de aquí debemos de continuar la configuración, sobre todo el python donde debe de instalar, en su defecto aparecio el python que no es de anaconda:
   ![image](https://user-images.githubusercontent.com/31372472/140830463-f4d44ba7-cabf-41b1-aba5-8e916dd2b3f7.png)
 
 - Verificamos la versión de procesador, en mi caso tengo un GeForce 940 MX, como en la página existe 940 M, utilizare su capacidad de 5.0 para mis configuraciones:
