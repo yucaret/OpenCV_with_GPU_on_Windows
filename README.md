@@ -23,6 +23,17 @@
 - Configuramos el python donde quiero instalar el opencv, en mi caso lo quiero instalar en el ambiente de anaconda que he creado llamado "pythonGPU" con python versión 3.7:
   ![image](https://user-images.githubusercontent.com/31372472/140870739-6e96c5bd-a626-4837-8fa5-965d434c6d05.png)
 
+- Agregamos una nueva entrada con "Add Entry" con el nombre "PYTHON3_LIBRARIES" y el valor "C:/Users/WIN/anaconda3/envs/pythonGPU/libs/python38.lib":
+  ![image](https://user-images.githubusercontent.com/31372472/140871719-f90d38bd-33ca-4528-a298-51679cd66a9c.png)
+
+- Agregamos dos entradas de versión con "Add Entry" con los nombres "PYTHON3_VERSION_STRING" y "PYTHON3LIBS_VERSION_STRING" y le damos el versión del python, en mi caso es "3.8.12", lo podemos verificar ingresando al environment del anaconda:
+  ![image](https://user-images.githubusercontent.com/31372472/140872652-3f9beaf7-e4c1-4798-b1ad-57675bee186e.png)
+
+  ![image](https://user-images.githubusercontent.com/31372472/140872228-f417b36e-d2d0-4a21-9217-725817b0b16e.png)
+
+  ![image](https://user-images.githubusercontent.com/31372472/140872377-a767e871-8eac-4961-90ed-de0da932f100.png)
+  
+
 - Configuramos la variable "OPENCV_PYTHON3_VERSION" y le damos check:
   ![image](https://user-images.githubusercontent.com/31372472/140869890-c8be1069-d648-473a-8ace-9694508e698a.png)
 
