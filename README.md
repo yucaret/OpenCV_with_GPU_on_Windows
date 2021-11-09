@@ -99,8 +99,11 @@
   
 - Luego de ver que no exista ningún error o mensaje en rojo en la configuración, damos click en "Generate":
   ![image](https://user-images.githubusercontent.com/31372472/140873468-1af93146-df6f-455b-929a-9c1b2e797936.png)
- 
-- Damos click derecho en ALL_BULD y compilar (el proceso tarda aproximadamente 6 horas):
+
+- Cerramos CMake y vamos a la carpeta del Build de Opencv, damos click derecho en "ALL_BUILD" y abrimos con Visual Studio 2019:
+  ![image](https://user-images.githubusercontent.com/31372472/140874369-51071696-3ede-43f0-b817-dd329bd4816d.png)
+
+- Damos click derecho en ALL_BUILD y compilar (el proceso tarda aproximadamente 6 horas):
   ![image](https://user-images.githubusercontent.com/31372472/140610569-54ca4014-89c5-4489-a451-325b817f95f2.png)
 
   ![image](https://user-images.githubusercontent.com/31372472/140610622-14cb59a9-01f0-402f-a372-185cdf8d76eb.png)
