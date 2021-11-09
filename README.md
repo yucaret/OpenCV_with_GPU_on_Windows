@@ -20,7 +20,7 @@
 - Cuando culmina de configurar nos saldrá este resultado, a partir de aquí debemos de continuar la configuración, sobre todo el python donde debe de instalar, en su defecto aparecio el python que no es de anaconda:
   ![image](https://user-images.githubusercontent.com/31372472/140830463-f4d44ba7-cabf-41b1-aba5-8e916dd2b3f7.png)
   
-- Configuramos el python donde quiero instalar el opencv, en mi caso lo quiero instalar en el ambiente de anaconda que he creado llamado "pythonGPU" con python versión 3.7:
+- Configuramos el python donde quiero instalar el opencv, en mi caso lo quiero instalar en el ambiente de anaconda que he creado llamado "pythonGPU" con python versión 3.8:
   ![image](https://user-images.githubusercontent.com/31372472/140870739-6e96c5bd-a626-4837-8fa5-965d434c6d05.png)
 
 - Agregamos una nueva entrada con "Add Entry" con el nombre "PYTHON3_LIBRARIES" y el valor "C:/Users/WIN/anaconda3/envs/pythonGPU/libs/python38.lib":
