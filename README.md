@@ -53,13 +53,20 @@
 - Configuramos la variable CUDA_FAST_MATH y le damos check:
   ![image](https://user-images.githubusercontent.com/31372472/140837626-eddff181-c23a-4d27-b7e8-1bad06565ca4.png)
 
+- Para configurar la siguiente variable primero debes de conocer producto de nvidea tienes en tu pc, los puedes buscar en administrador de dispositivo, luego de conocerlo buscas tu producto en la página de nvidea (https://developer.nvidia.com/cuda-gpus) y luego conociendo la capacidad la colocas en la configuración del Cmake:
+ 
+  Aquí verificamos que tipo de producto tenemos
+  ![image](https://user-images.githubusercontent.com/31372472/140841750-0bf335e4-1912-404b-a5df-5c7a73c9a8b0.png)
 
-
-
-
-
-- Verificamos la versión de procesador, en mi caso tengo un GeForce 940 MX, como en la página existe 940 M, utilizare su capacidad de 5.0 para las configuraciones:
+  Aquí verificamos la capacidad del producto (https://developer.nvidia.com/cuda-gpus), en mi caso tengo un GeForce 940 MX, como en la página existe 940 M, utilizare su capacidad de 5.0 para las configuraciones:
   ![image](https://user-images.githubusercontent.com/31372472/140633626-37af1847-ab9e-42f1-8e47-d63b965f8302.png)
+  
+  ![image](https://user-images.githubusercontent.com/31372472/140841512-76c36079-d057-463d-b217-d3036ccab0d6.png)
+  
+  Aquí configuramos la capacidad en CMAKE en la variable CUDA_ARCH_BIN
+  ![image](https://user-images.githubusercontent.com/31372472/140841568-6c41739a-fa5e-4495-9c4e-b81da64bbba9.png)
+
+
  
 - Damos click derecho en ALL_BULD y compilar (el proceso tarda aproximadamente 6 horas):
   ![image](https://user-images.githubusercontent.com/31372472/140610569-54ca4014-89c5-4489-a451-325b817f95f2.png)
