@@ -20,8 +20,9 @@
 - Cuando culmine de configurar nos saldrá este resultado, a partir de aquí debemos de continuar la configuración, sobre todo el python donde debe de instalar, en su defecto aparecio el python que no es de anaconda:
   ![image](https://user-images.githubusercontent.com/31372472/140830463-f4d44ba7-cabf-41b1-aba5-8e916dd2b3f7.png)
   
-- Configuramos el python donde quiero instalar el opencv, en mi caso lo quiero instalar en el ambiente de anaconda que he creado llamado "pythonGPU":
-  ![image](https://user-images.githubusercontent.com/31372472/140833069-696c0814-8590-4f93-ae0e-66f4ca0c66d3.png)
+- Configuramos el python donde quiero instalar el opencv, en mi caso lo quiero instalar en el ambiente de anaconda que he creado llamado "pythonGPU" con python versión 3.7:
+  ![image](https://user-images.githubusercontent.com/31372472/140845370-a9c77df5-6452-4212-a671-776ece412b3e.png)
+
 
 - Configuramos la variable "BUILD_opencv_world" y le damos check:
   ![image](https://user-images.githubusercontent.com/31372472/140833162-9b6b40f3-c0f4-4e3f-9522-89d1810f2d2d.png)
