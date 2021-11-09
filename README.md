@@ -96,6 +96,9 @@
   ![image](https://user-images.githubusercontent.com/31372472/140869281-6d42442d-37a7-4041-926e-360f845709c3.png)
   
   ![image](https://user-images.githubusercontent.com/31372472/140869366-a957ff29-f2f8-4fc7-81a5-b4d0d977e741.png)
+  
+- Luego de ver que no exista ningún error o mensaje en rojo en la configuración, damos click en "Generate":
+  ![image](https://user-images.githubusercontent.com/31372472/140873468-1af93146-df6f-455b-929a-9c1b2e797936.png)
  
 - Damos click derecho en ALL_BULD y compilar (el proceso tarda aproximadamente 6 horas):
   ![image](https://user-images.githubusercontent.com/31372472/140610569-54ca4014-89c5-4489-a451-325b817f95f2.png)
