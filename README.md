@@ -61,10 +61,19 @@
   Aquí verificamos la capacidad del producto (https://developer.nvidia.com/cuda-gpus), en mi caso tengo un GeForce 940 MX, como en la página existe 940 M, utilizare su capacidad de 5.0 para las configuraciones:
   ![image](https://user-images.githubusercontent.com/31372472/140633626-37af1847-ab9e-42f1-8e47-d63b965f8302.png)
   
-  ![image](https://user-images.githubusercontent.com/31372472/140841512-76c36079-d057-463d-b217-d3036ccab0d6.png)
-  
   Aquí configuramos la capacidad en CMAKE en la variable CUDA_ARCH_BIN
   ![image](https://user-images.githubusercontent.com/31372472/140841568-6c41739a-fa5e-4495-9c4e-b81da64bbba9.png)
+  
+- Configuramos la variable OPENCV_EXTRA_MODULES_PATH y allí colocamos la ruta del modulo del opencv_contrib (en mi caso es C:\opencv-gpu\opencv_contrib-4.x\modules):
+
+  ![image](https://user-images.githubusercontent.com/31372472/140843017-58e0bc33-0f5f-48ec-8773-0b8881804dd7.png)
+
+
+- Damos click en "Configure" y esperamos:
+
+
+
+
 
 
  
