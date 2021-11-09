@@ -71,6 +71,13 @@
 - Damos click en "Configure" y esperamos:
   ![image](https://user-images.githubusercontent.com/31372472/140843894-781e5ba4-63c6-49a3-bcd7-a99261ec566a.png)
 
+- Se va a generar el siguiente error, en este caso para evitarlo hay que quitarle el check a la variale OPENCV_GENERATE_SETUPVARS.
+
+  ![image](https://user-images.githubusercontent.com/31372472/140845110-0cdc7e3d-6fc3-4548-987e-b8870735ef0e.png)
+  
+  ![image](https://user-images.githubusercontent.com/31372472/140845212-9f5206aa-a7c5-4469-b5a4-64ba39074d6f.png)
+
+
 
 
 
