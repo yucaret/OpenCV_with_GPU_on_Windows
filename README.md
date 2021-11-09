@@ -68,8 +68,8 @@
 
   ![image](https://user-images.githubusercontent.com/31372472/140843017-58e0bc33-0f5f-48ec-8773-0b8881804dd7.png)
 
-
 - Damos click en "Configure" y esperamos:
+  ![image](https://user-images.githubusercontent.com/31372472/140843894-781e5ba4-63c6-49a3-bcd7-a99261ec566a.png)
 
 
 
