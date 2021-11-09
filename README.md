@@ -23,7 +23,6 @@
 - Configuramos el python donde quiero instalar el opencv, en mi caso lo quiero instalar en el ambiente de anaconda que he creado llamado "pythonGPU" con python versión 3.7:
   ![image](https://user-images.githubusercontent.com/31372472/140845370-a9c77df5-6452-4212-a671-776ece412b3e.png)
 
-
 - Configuramos la variable "BUILD_opencv_world" y le damos check:
   ![image](https://user-images.githubusercontent.com/31372472/140833162-9b6b40f3-c0f4-4e3f-9522-89d1810f2d2d.png)
 
@@ -78,12 +77,11 @@
   
   ![image](https://user-images.githubusercontent.com/31372472/140845212-9f5206aa-a7c5-4469-b5a4-64ba39074d6f.png)
 
+- Damos click en configurar y verificamos que no se de ningún mensaje en rojo, y verificamos las configuraciones más importantes, python y cuda:
 
-
-
-
-
-
+  ![image](https://user-images.githubusercontent.com/31372472/140869281-6d42442d-37a7-4041-926e-360f845709c3.png)
+  
+  ![image](https://user-images.githubusercontent.com/31372472/140869366-a957ff29-f2f8-4fc7-81a5-b4d0d977e741.png)
  
 - Damos click derecho en ALL_BULD y compilar (el proceso tarda aproximadamente 6 horas):
   ![image](https://user-images.githubusercontent.com/31372472/140610569-54ca4014-89c5-4489-a451-325b817f95f2.png)
