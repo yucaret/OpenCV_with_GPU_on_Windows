@@ -17,11 +17,14 @@
 - Luego dar click en "Configure", donde saldrá otra ventana pop up y donde se debe de configurar de la siguiente manera y finalmente darle finish:
   ![image](https://user-images.githubusercontent.com/31372472/140828744-5fb4cc0a-80b5-4459-919f-8a3805a2833b.png)
   
-- Cuando culmine de configurar nos saldrá este resultado, a partir de aquí debemos de continuar la configuración, sobre todo el python donde debe de instalar, en su defecto aparecio el python que no es de anaconda:
+- Cuando culmina de configurar nos saldrá este resultado, a partir de aquí debemos de continuar la configuración, sobre todo el python donde debe de instalar, en su defecto aparecio el python que no es de anaconda:
   ![image](https://user-images.githubusercontent.com/31372472/140830463-f4d44ba7-cabf-41b1-aba5-8e916dd2b3f7.png)
   
 - Configuramos el python donde quiero instalar el opencv, en mi caso lo quiero instalar en el ambiente de anaconda que he creado llamado "pythonGPU" con python versión 3.7:
   ![image](https://user-images.githubusercontent.com/31372472/140845370-a9c77df5-6452-4212-a671-776ece412b3e.png)
+
+- Configuramos la variable "OPENCV_PYTHON3_VERSION" y le damos check:
+  ![image](https://user-images.githubusercontent.com/31372472/140869890-c8be1069-d648-473a-8ace-9694508e698a.png)
 
 - Configuramos la variable "BUILD_opencv_world" y le damos check:
   ![image](https://user-images.githubusercontent.com/31372472/140833162-9b6b40f3-c0f4-4e3f-9522-89d1810f2d2d.png)
@@ -35,7 +38,7 @@
 - Configuramos la variable "ENABLE_FAST_MATH" y le damos check:
   ![image](https://user-images.githubusercontent.com/31372472/140834953-bf84979c-ed9b-4552-b730-2b43e7a14f9e.png)
 
-- Configuramos las variables INSTALL_PYTHON_EXAMPLES, INSTALL_C_EXAMPLES y BUILD_EXAMPLES , a todas le quitamos el check.
+- Configuramos las variables "INSTALL_PYTHON_EXAMPLES", "INSTALL_C_EXAMPLES" y "BUILD_EXAMPLES" , a todas le quitamos el check.
   ![image](https://user-images.githubusercontent.com/31372472/140835620-5c1d1f02-fb07-4c5f-9e9f-bf765fabbace.png)
 
 - Damos click en "Configure" y esperamos a las siguientes configuraciones:
@@ -44,13 +47,13 @@
 - El proceso va a generar un error, el cual le damos ok y empezamos a configurar nuevamente:
   ![image](https://user-images.githubusercontent.com/31372472/140836596-8339ecfb-1d40-4303-9bbf-fa1d01a163ef.png)
 
-- Verificamos que la variable WITH_CUDNN este con check, si no tiene le damos check:
+- Verificamos que la variable "WITH_CUDNN" este con check, si no tiene le damos check:
   ![image](https://user-images.githubusercontent.com/31372472/140837001-0128ce2d-d97c-447b-8473-ec7b7f3dd4c6.png)
 
-- Verificamos que la variable WITH_CUBLAS este con check, si no tiene le damos chech:
+- Verificamos que la variable "WITH_CUBLAS" este con check, si no tiene le damos chech:
   ![image](https://user-images.githubusercontent.com/31372472/140837488-ac193bc0-01dc-48ab-9206-808fb9ba70fb.png)
 
-- Configuramos la variable CUDA_FAST_MATH y le damos check:
+- Configuramos la variable "CUDA_FAST_MATH" y le damos check:
   ![image](https://user-images.githubusercontent.com/31372472/140837626-eddff181-c23a-4d27-b7e8-1bad06565ca4.png)
 
 - Para configurar la siguiente variable primero debes de conocer producto de nvidea tienes en tu pc, los puedes buscar en administrador de dispositivo, luego de conocerlo buscas tu producto en la página de nvidea (https://developer.nvidia.com/cuda-gpus) y luego conociendo la capacidad la colocas en la configuración del Cmake:
@@ -61,10 +64,10 @@
   Aquí verificamos la capacidad del producto (https://developer.nvidia.com/cuda-gpus), en mi caso tengo un GeForce 940 MX, como en la página existe 940 M, utilizare su capacidad de 5.0 para las configuraciones:
   ![image](https://user-images.githubusercontent.com/31372472/140633626-37af1847-ab9e-42f1-8e47-d63b965f8302.png)
   
-  Aquí configuramos la capacidad en CMAKE en la variable CUDA_ARCH_BIN
+  Aquí configuramos la capacidad en CMAKE en la variable "CUDA_ARCH_BIN".
   ![image](https://user-images.githubusercontent.com/31372472/140841568-6c41739a-fa5e-4495-9c4e-b81da64bbba9.png)
   
-- Configuramos la variable OPENCV_EXTRA_MODULES_PATH y allí colocamos la ruta del modulo del opencv_contrib (en mi caso es C:\opencv-gpu\opencv_contrib-4.x\modules):
+- Configuramos la variable "OPENCV_EXTRA_MODULES_PATH" y allí colocamos la ruta del modulo del opencv_contrib (en mi caso es C:\opencv-gpu\opencv_contrib-4.x\modules):
 
   ![image](https://user-images.githubusercontent.com/31372472/140843017-58e0bc33-0f5f-48ec-8773-0b8881804dd7.png)
 
