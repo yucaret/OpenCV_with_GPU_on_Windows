@@ -51,7 +51,7 @@
   ![image](https://user-images.githubusercontent.com/31372472/140837488-ac193bc0-01dc-48ab-9206-808fb9ba70fb.png)
 
 - Configuramos la variable CUDA_FAST_MATH y le damos check:
-  ![image](https://user-images.githubusercontent.com/31372472/140837558-aa5fa688-8037-412c-9b53-856c90e81eda.png)
+  ![image](https://user-images.githubusercontent.com/31372472/140837626-eddff181-c23a-4d27-b7e8-1bad06565ca4.png)
 
 
 
