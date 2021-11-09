@@ -44,6 +44,14 @@
 - El proceso va a generar un error, el cual le damos ok y empezamos a configurar nuevamente:
   ![image](https://user-images.githubusercontent.com/31372472/140836596-8339ecfb-1d40-4303-9bbf-fa1d01a163ef.png)
 
+- Verificamos que la variable WITH_CUDNN este con check, si no tiene le damos check:
+  ![image](https://user-images.githubusercontent.com/31372472/140837001-0128ce2d-d97c-447b-8473-ec7b7f3dd4c6.png)
+
+- Verificamos que la variable WITH_CUBLAS este con check, si no tiene le damos chech:
+  ![image](https://user-images.githubusercontent.com/31372472/140837245-4a4a43a0-0f03-499d-b0a2-d94464811373.png)
+
+- Configuramos la variable CUDA_FAST_MATH y le damos check:
+  ![image](https://user-images.githubusercontent.com/31372472/140837107-e3629406-a663-4b51-97fc-f001c146ee36.png)
 
 
 
