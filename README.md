@@ -1,32 +1,37 @@
-# OpenCV_with_GPU_on_Windows
+# Configuración de OpenCV con GPU en Anaconda con Windows
 
-- Crear una carpeta en C: llamada "opencv-gpu".
+Como configurar el OpenCV con GPU e instalarlo en un ambiente de Anaconda sobre la plataforma de Windows.
+## Requerimiento Iniciales:
 
-- Descargar dentro de la carpeta creada las versiones source de opencv, en mi caso la he descargado de la página de opencv https://opencv.org/releases/ la versión 4.5.3:
+## Pasos a seguir:
+
+- Primedo debe de crear la carpeta donde vas a descargar el OpenCV, yo lo voy a crear en C: y se llama "opencv-gpu".
+
+- Luego descargar dentro de la carpeta creada las versiones source de opencv, en mi caso la he descargado de la página de opencv https://opencv.org/releases/ la versión 4.5.3:
   ![image](https://user-images.githubusercontent.com/31372472/140824898-047988e4-e6d6-4b3b-99b5-c84e4435d910.png)
 
-- Decargar dentro de la carpeta creada el opencv-contribution para la versión que opencv que haz descargado, en mi caso la he bajado del github https://github.com/opencv/opencv_contrib la versión 4.x:
+- Además decargar dentro de la misma carpeta el opencv-contribution para la versión de opencv que haz descargado, en mi caso la he bajado del github https://github.com/opencv/opencv_contrib la versión 4.x:
   ![image](https://user-images.githubusercontent.com/31372472/140872837-355aa33b-cfa0-419f-991e-70d7ee6342d1.png)
 
-- Descomprimir los dos .zip y crear una carpeta llamada "build", debe tener el siguiente formato:
+- Descomprimir ambos zip y creamos una carpeta adicional llamada "build", al final debe de quedar en el siguiente formato:
   ![image](https://user-images.githubusercontent.com/31372472/140826316-1e91f286-9fdc-4a20-a1a6-0b0470ca07a5.png)
   
-- En conda creamos un ambiente, en mi caso lo voy a llamar "pythonGPU" y lo voy a crear con python 3.8.5 con el comando "conda create -n pythonGPU python=3.8.5":
+- Luego abrimos el prompt de Anaconda y creamos un ambiente (yo recomiendo instalar opencv en un ambiente nuevo debido a que las librerias ya instaladas en un ambiente existente puede causar conflictos en la configuración e instalación), llamare mi ambiente con "pythonGPU" y lo voy a crear con la versión de python 3.8.5 utilizando el comando "conda create -n pythonGPU python=3.8.5":
   ![image](https://user-images.githubusercontent.com/31372472/141039733-effd5142-c26a-4dc2-9ae9-bd423a3eb17e.png)
 
-- En el ambiente instalamos el numpy con el comando "conda install numpy":
+- Ingresamos al ambiente creado e instalamos el numpy con el comando "conda install numpy" y cerramos:
   ![image](https://user-images.githubusercontent.com/31372472/141039859-3cf61ac2-bdce-499f-9835-955f1a2210c0.png)
 
-- Abrir el CMake y configurar las siguientes rutas:
+- Luego abrimos el CMake y realizamos configurar las siguientes configuraciones de carpetas:
   ![image](https://user-images.githubusercontent.com/31372472/140827697-0b1963e9-939d-4474-b79e-4a46dee8b8c3.png)
 
 - Luego agregamos las variable con rutas del python del ambiente que creamos, y donde queremos instalar el opencv; en mi caso las entradas con las rutas son:
-  PYTHON3_EXECUTABLE         = C:/Users/WIN/anaconda3/envs/pythonGPU/python.exe
-  PYTHON3_INCLUDE_DIR        = C:/Users/WIN/anaconda3/envs/pythonGPU/include
-  PYTHON3_LIBRARY            = C:/Users/WIN/anaconda3/envs/pythonGPU/libs/python38.lib
-  PYTHON3_LIBRARIES          = C:/Users/WIN/anaconda3/envs/pythonGPU/libs/python38.lib
-  PYTHON3_NUMPY_INCLUDE_DIRS = C:/Users/WIN/anaconda3/envs/pythonGPU/Lib/site-packages/numpy/core/include
-  PYTHON3_PACKAGES_PATH      = C:/Users/WIN/anaconda3/envs/pythonGPU/Lib/site-packages
+  * PYTHON3_EXECUTABLE         = C:/Users/WIN/anaconda3/envs/pythonGPU/python.exe
+  * PYTHON3_INCLUDE_DIR        = C:/Users/WIN/anaconda3/envs/pythonGPU/include
+  * PYTHON3_LIBRARY            = C:/Users/WIN/anaconda3/envs/pythonGPU/libs/python38.lib
+  * PYTHON3_LIBRARIES          = C:/Users/WIN/anaconda3/envs/pythonGPU/libs/python38.lib
+  * PYTHON3_NUMPY_INCLUDE_DIRS = C:/Users/WIN/anaconda3/envs/pythonGPU/Lib/site-packages/numpy/core/include
+  * PYTHON3_PACKAGES_PATH      = C:/Users/WIN/anaconda3/envs/pythonGPU/Lib/site-packages
   
   La forma de agregar las variable es de la siguiente manera, y lo debes de hacer con las 6 variables mostradas arriba:
   ![image](https://user-images.githubusercontent.com/31372472/141041406-d85b67a1-ac1b-459f-aa19-97b1c85e8a7c.png)
