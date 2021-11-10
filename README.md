@@ -121,6 +121,6 @@ Como configurar el OpenCV con GPU e instalarlo en un ambiente de Anaconda sobre 
   
 - Para verifica la instalación ingresamos a Python e importamos opencv y vemos la informaci+on de Cuda Instalado
 
-  ![image](https://user-images.githubusercontent.com/31372472/140645225-ab7ed305-a844-404a-840a-a9d77599aeb8.png)
+  ![image](https://user-images.githubusercontent.com/31372472/141053402-480770fb-0f28-48be-a5a4-c81e938986ac.png)
   
   ![image](https://user-images.githubusercontent.com/31372472/140645261-5d8d7493-fcc7-4e69-961f-e3bf016114f7.png)
