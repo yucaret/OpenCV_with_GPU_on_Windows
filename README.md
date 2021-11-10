@@ -1,7 +1,22 @@
 # Configuración de OpenCV con GPU en Anaconda con Windows
 
 Como configurar el OpenCV con GPU e instalarlo en un ambiente de Anaconda sobre la plataforma de Windows.
-## Requerimiento Iniciales:
+
+## Requerimientos:
+
+- Instalar el Nvidia Driver, descargarlo del link https://www.nvidia.com/Download/index.aspx?lang=en-us, en mi caso son estos drivers:
+  ![image](https://user-images.githubusercontent.com/31372472/141056748-701f3105-9a13-4315-8197-864196ce7d09.png)
+
+- Instalar el Cuda Toolkit, para ello sigue estas instrucciones: https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html
+- Instalar el Cudnn, para ello sigue estas instrucciones en la sección de "Installing cuDNN On Windows" del link: https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html
+- Instalar el CMake, lo pueden descargar de la siguiente ruta: https://cmake.org/download/ en mi caso descargue la versión 3.22.0-rc2.
+- Instalar el Git, lo pueden decargar de la siguiente ruta: https://git-scm.com/download/win en mi caso decargué la versión 2.33.1.
+- Instalar el Visual Studio Community, en mi caso tengo la versión 2019, para este caso en especial instalar estas dos opciones:
+  ![image](https://user-images.githubusercontent.com/31372472/141055712-63d3eccf-b3af-41ae-8f0f-161bc5206345.png)
+  
+  Luego de esa instalación haz el siguiente copiado de archivos:
+  * De la ruta  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\extras\visual_studio_integration\MSBuildExtensions\, copia los archivos "CUDA 11.4.props", "CUDA 11.4.targets", "CUDA 11.4.xml" y "Nvda.Build.CudaTasks.v11.2.dll".
+  * Pegar los archivos copiados en la ruta C:\Program Files(x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\BuildCustomizations\.
 
 ## Pasos a seguir:
 
