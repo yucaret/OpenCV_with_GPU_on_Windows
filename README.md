@@ -123,4 +123,4 @@ Como configurar el OpenCV con GPU e instalarlo en un ambiente de Anaconda sobre 
 
   ![image](https://user-images.githubusercontent.com/31372472/141053402-480770fb-0f28-48be-a5a4-c81e938986ac.png)
   
-  ![image](https://user-images.githubusercontent.com/31372472/140645261-5d8d7493-fcc7-4e69-961f-e3bf016114f7.png)
+  ![image](https://user-images.githubusercontent.com/31372472/141053625-dcbf1ceb-dbd3-4ccd-9890-8fc22a21e267.png)
