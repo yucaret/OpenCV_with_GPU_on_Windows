@@ -5,7 +5,7 @@ Como configurar el OpenCV con GPU e instalarlo en un ambiente de Anaconda sobre 
 
 ## Pasos a seguir:
 
-- Primedo debe de crear la carpeta donde vas a descargar el OpenCV, yo lo voy a crear en C: y se llama "opencv-gpu".
+- Primero debes de crear la carpeta donde vas a descargar el OpenCV, yo lo voy a crear en C: y se llama "opencv-gpu".
 
 - Luego descargar dentro de la carpeta creada las versiones source de opencv, en mi caso la he descargado de la página de opencv https://opencv.org/releases/ la versión 4.5.3:
   ![image](https://user-images.githubusercontent.com/31372472/140824898-047988e4-e6d6-4b3b-99b5-c84e4435d910.png)
@@ -103,13 +103,13 @@ Como configurar el OpenCV con GPU e instalarlo en un ambiente de Anaconda sobre 
 - Cerramos CMake y vamos a la carpeta del Build de Opencv, damos click derecho en "ALL_BUILD" y abrimos con Visual Studio 2019:
   ![image](https://user-images.githubusercontent.com/31372472/140874369-51071696-3ede-43f0-b817-dd329bd4816d.png)
 
-- Damos click derecho en ALL_BUILD y compilar (el proceso tarda aproximadamente 6 horas):
+- Damos click derecho en ALL_BUILD y compilar (el proceso tarda aproximadamente 5 horas):
   ![image](https://user-images.githubusercontent.com/31372472/140610569-54ca4014-89c5-4489-a451-325b817f95f2.png)
 
   ![image](https://user-images.githubusercontent.com/31372472/140610622-14cb59a9-01f0-402f-a372-185cdf8d76eb.png)
 
 - Cuando finaliza la compilación sale este resultado:
-  ![image](https://user-images.githubusercontent.com/31372472/140610516-358ccfea-1b20-4239-b456-156e88fd12e0.png)
+  ![image](https://user-images.githubusercontent.com/31372472/141052868-7aee5dc5-2e92-49c6-80cd-a76d4f68d2df.png)
 
 - Damos click derecho en INSTALL y compilar (demora unos segundos)
   ![image](https://user-images.githubusercontent.com/31372472/140618123-b003bc68-ec60-46c7-85b9-fca17560903f.png)
