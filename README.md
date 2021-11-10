@@ -10,32 +10,29 @@
 
 - Descomprimir los dos .zip y crear una carpeta llamada "build", debe tener el siguiente formato:
   ![image](https://user-images.githubusercontent.com/31372472/140826316-1e91f286-9fdc-4a20-a1a6-0b0470ca07a5.png)
+  
+- En conda creamos un ambiente, en mi caso lo voy a llamar "pythonGPU" y lo voy a crear con python 3.8.5 con el comando "conda create -n pythonGPU python=3.8.5":
+  ![image](https://user-images.githubusercontent.com/31372472/141039733-effd5142-c26a-4dc2-9ae9-bd423a3eb17e.png)
+
+- En el ambiente instalamos el numpy con el comando "conda install numpy":
+  ![image](https://user-images.githubusercontent.com/31372472/141039859-3cf61ac2-bdce-499f-9835-955f1a2210c0.png)
 
 - Abrir el CMake y configurar las siguientes rutas:
   ![image](https://user-images.githubusercontent.com/31372472/140827697-0b1963e9-939d-4474-b79e-4a46dee8b8c3.png)
+
+- Luego agregamos las variable con rutas del python del ambiente que creamos, y donde queremos instalar el opencv; en mi caso las entradas con las rutas son:
+  PYTHON3_EXECUTABLE         = C:/Users/WIN/anaconda3/envs/pythonGPU/python.exe
+  PYTHON3_INCLUDE_DIR        = C:/Users/WIN/anaconda3/envs/pythonGPU/include
+  PYTHON3_LIBRARY            = C:/Users/WIN/anaconda3/envs/pythonGPU/libs/python38.lib
+  PYTHON3_LIBRARIES          = C:/Users/WIN/anaconda3/envs/pythonGPU/libs/python38.lib
+  PYTHON3_NUMPY_INCLUDE_DIRS = C:/Users/WIN/anaconda3/envs/pythonGPU/Lib/site-packages/numpy/core/include
+  PYTHON3_PACKAGES_PATH      = C:/Users/WIN/anaconda3/envs/pythonGPU/Lib/site-packages
   
+  La forma de agregar las variable es de la siguiente manera, y lo debes de hacer con las 6 variables mostradas arriba:
+  ![image](https://user-images.githubusercontent.com/31372472/141041406-d85b67a1-ac1b-459f-aa19-97b1c85e8a7c.png)
+
 - Luego dar click en "Configure", donde saldrá otra ventana pop up y donde se debe de configurar de la siguiente manera y finalmente darle finish:
   ![image](https://user-images.githubusercontent.com/31372472/140828744-5fb4cc0a-80b5-4459-919f-8a3805a2833b.png)
-  
-- Cuando culmina de configurar nos saldrá este resultado, a partir de aquí debemos de continuar la configuración, sobre todo el python donde debe de instalar, en su defecto aparecio el python que no es de anaconda:
-  ![image](https://user-images.githubusercontent.com/31372472/140830463-f4d44ba7-cabf-41b1-aba5-8e916dd2b3f7.png)
-  
-- Configuramos el python donde quiero instalar el opencv, en mi caso lo quiero instalar en el ambiente de anaconda que he creado llamado "pythonGPU" con python versión 3.8:
-  ![image](https://user-images.githubusercontent.com/31372472/140870739-6e96c5bd-a626-4837-8fa5-965d434c6d05.png)
-
-- Agregamos una nueva entrada con "Add Entry" con el nombre "PYTHON3_LIBRARIES" y el valor "C:/Users/WIN/anaconda3/envs/pythonGPU/libs/python38.lib":
-  ![image](https://user-images.githubusercontent.com/31372472/140871719-f90d38bd-33ca-4528-a298-51679cd66a9c.png)
-
-- Agregamos dos entradas de versión con "Add Entry" con los nombres "PYTHON3_VERSION_STRING" y "PYTHON3LIBS_VERSION_STRING" y le damos el versión del python, en mi caso es "3.8.12", lo podemos verificar ingresando al environment del anaconda:
-  ![image](https://user-images.githubusercontent.com/31372472/140872652-3f9beaf7-e4c1-4798-b1ad-57675bee186e.png)
-
-  ![image](https://user-images.githubusercontent.com/31372472/140872228-f417b36e-d2d0-4a21-9217-725817b0b16e.png)
-
-  ![image](https://user-images.githubusercontent.com/31372472/140872377-a767e871-8eac-4961-90ed-de0da932f100.png)
-  
-
-- Configuramos la variable "OPENCV_PYTHON3_VERSION" y le damos check:
-  ![image](https://user-images.githubusercontent.com/31372472/140869890-c8be1069-d648-473a-8ace-9694508e698a.png)
 
 - Configuramos la variable "BUILD_opencv_world" y le damos check:
   ![image](https://user-images.githubusercontent.com/31372472/140833162-9b6b40f3-c0f4-4e3f-9522-89d1810f2d2d.png)
@@ -51,6 +48,10 @@
 
 - Configuramos las variables "INSTALL_PYTHON_EXAMPLES", "INSTALL_C_EXAMPLES" y "BUILD_EXAMPLES" , a todas le quitamos el check.
   ![image](https://user-images.githubusercontent.com/31372472/140835620-5c1d1f02-fb07-4c5f-9e9f-bf765fabbace.png)
+  
+- Configuramos la variable "OPENCV_EXTRA_MODULES_PATH" y allí colocamos la ruta del modulo del opencv_contrib (en mi caso es C:\opencv-gpu\opencv_contrib-4.x\modules):
+
+  ![image](https://user-images.githubusercontent.com/31372472/140843017-58e0bc33-0f5f-48ec-8773-0b8881804dd7.png)
 
 - Damos click en "Configure" y esperamos a las siguientes configuraciones:
   ![image](https://user-images.githubusercontent.com/31372472/140836326-e49bf59c-fb2e-4a3a-a5bc-f4b44501dc1d.png)
@@ -67,20 +68,14 @@
 - Configuramos la variable "CUDA_FAST_MATH" y le damos check:
   ![image](https://user-images.githubusercontent.com/31372472/140837626-eddff181-c23a-4d27-b7e8-1bad06565ca4.png)
 
-- Para configurar la siguiente variable primero debes de conocer producto de nvidea tienes en tu pc, los puedes buscar en administrador de dispositivo, luego de conocerlo buscas tu producto en la página de nvidea (https://developer.nvidia.com/cuda-gpus) y luego conociendo la capacidad la colocas en la configuración del Cmake:
- 
-  Aquí verificamos que tipo de producto tenemos
+- Para configurar la variable "CUDA_ARCH_BIN" primero debes de conocer el producto de nvidea que tienes en tu pc, esste lo puedes buscar en administrador de dispositivo:
   ![image](https://user-images.githubusercontent.com/31372472/140841750-0bf335e4-1912-404b-a5df-5c7a73c9a8b0.png)
 
-  Aquí verificamos la capacidad del producto (https://developer.nvidia.com/cuda-gpus), en mi caso tengo un GeForce 940 MX, como en la página existe 940 M, utilizare su capacidad de 5.0 para las configuraciones:
+  Luego verificamos la capacidad del producto (https://developer.nvidia.com/cuda-gpus), en mi caso tengo un GeForce 940 MX, como en la página existe 940 M, utilizare su capacidad de 5.0 para las configuraciones:
   ![image](https://user-images.githubusercontent.com/31372472/140633626-37af1847-ab9e-42f1-8e47-d63b965f8302.png)
   
-  Aquí configuramos la capacidad en CMAKE en la variable "CUDA_ARCH_BIN".
+  Finalmente configuramos la variable "CUDA_ARCH_BIN".
   ![image](https://user-images.githubusercontent.com/31372472/140841568-6c41739a-fa5e-4495-9c4e-b81da64bbba9.png)
-  
-- Configuramos la variable "OPENCV_EXTRA_MODULES_PATH" y allí colocamos la ruta del modulo del opencv_contrib (en mi caso es C:\opencv-gpu\opencv_contrib-4.x\modules):
-
-  ![image](https://user-images.githubusercontent.com/31372472/140843017-58e0bc33-0f5f-48ec-8773-0b8881804dd7.png)
 
 - Damos click en "Configure" y esperamos:
   ![image](https://user-images.githubusercontent.com/31372472/140843894-781e5ba4-63c6-49a3-bcd7-a99261ec566a.png)
@@ -93,7 +88,7 @@
 
 - Damos click en configurar y verificamos que no se de ningún mensaje en rojo, y verificamos las configuraciones más importantes, python y cuda:
 
-  ![image](https://user-images.githubusercontent.com/31372472/140869281-6d42442d-37a7-4041-926e-360f845709c3.png)
+  ![image](https://user-images.githubusercontent.com/31372472/141039346-e0719cef-3b9b-49bd-90e3-5e48e03a4217.png)
   
   ![image](https://user-images.githubusercontent.com/31372472/140869366-a957ff29-f2f8-4fc7-81a5-b4d0d977e741.png)
   
