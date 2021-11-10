@@ -4,7 +4,7 @@ Como configurar el OpenCV con GPU e instalarlo en un ambiente de Anaconda sobre 
 
 ## Requerimientos:
 
-- Instalar el Nvidia Driver, descargarlo del link https://www.nvidia.com/Download/index.aspx?lang=en-us, en mi caso son estos drivers:
+- Instalar el Nvidia Driver, descargarlo del link https://www.nvidia.com/Download/index.aspx?lang=en-us, en mi caso este es el driver de mi máquina:
   ![image](https://user-images.githubusercontent.com/31372472/141056748-701f3105-9a13-4315-8197-864196ce7d09.png)
 
 - Instalar el Cuda Toolkit, para ello sigue estas instrucciones: https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html, en mi caso esta instalada la versión 11.4.
