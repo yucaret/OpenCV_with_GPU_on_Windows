@@ -41,12 +41,12 @@ Cómo configurar el OpenCV con GPU e instalarlo en un ambiente de Anaconda sobre
   ![image](https://user-images.githubusercontent.com/31372472/140827697-0b1963e9-939d-4474-b79e-4a46dee8b8c3.png)
 
 - Luego agregamos las variable con rutas del python del ambiente que creamos, y donde queremos instalar el opencv; en mi caso las entradas con las rutas son:
-  * PYTHON3_EXECUTABLE         = C:/Users/WIN/anaconda3/envs/pythonGPU/python.exe
-  * PYTHON3_INCLUDE_DIR        = C:/Users/WIN/anaconda3/envs/pythonGPU/include
-  * PYTHON3_LIBRARY            = C:/Users/WIN/anaconda3/envs/pythonGPU/libs/python38.lib
-  * PYTHON3_LIBRARIES          = C:/Users/WIN/anaconda3/envs/pythonGPU/libs/python38.lib
-  * PYTHON3_NUMPY_INCLUDE_DIRS = C:/Users/WIN/anaconda3/envs/pythonGPU/Lib/site-packages/numpy/core/include
-  * PYTHON3_PACKAGES_PATH      = C:/Users/WIN/anaconda3/envs/pythonGPU/Lib/site-packages
+  * PYTHON3_EXECUTABLE         = C:/Users/WIN/anaconda3/envs/pythonGPU/python.exe
+  * PYTHON3_INCLUDE_DIR        = C:/Users/WIN/anaconda3/envs/pythonGPU/include
+  * PYTHON3_LIBRARY            = C:/Users/WIN/anaconda3/envs/pythonGPU/libs/python38.lib
+  * PYTHON3_LIBRARIES          = C:/Users/WIN/anaconda3/envs/pythonGPU/libs/python38.lib
+  * PYTHON3_NUMPY_INCLUDE_DIRS = C:/Users/WIN/anaconda3/envs/pythonGPU/Lib/site-packages/numpy/core/include
+  * PYTHON3_PACKAGES_PATH      = C:/Users/WIN/anaconda3/envs/pythonGPU/Lib/site-packages
   
   La forma de agregar las variable es de la siguiente manera, y lo debes de hacer con las 6 variables mostradas arriba:
   ![image](https://user-images.githubusercontent.com/31372472/141041406-d85b67a1-ac1b-459f-aa19-97b1c85e8a7c.png)
