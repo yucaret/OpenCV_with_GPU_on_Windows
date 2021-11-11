@@ -1,4 +1,4 @@
-# Configuración de OpenCV con GPU en Anaconda con Windows
+# Configuración de OpenCV con GPU en Anaconda con Windows 10
 
 Cómo configurar el OpenCV con GPU e instalarlo en un ambiente de Anaconda sobre la plataforma de Windows.
 
